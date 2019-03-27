@@ -1,0 +1,15 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:mysql://google/gcpcloudsql?cloudSqlInstance=stl-babyio-userportal:us-central1:spring-boot-mysql-gcp-001
+    username: root
+    password: HKl60JdykkDe2y5s
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
